@@ -8,11 +8,6 @@
   box-sizing: border-box;
 }
 
-/* Estilos para el elemento html y otros estilos personalizados debajo si es necesario */
-html {
-  /* Estilos para el elemento html aquí */
-}
-
 /* Asegurar que la declaración que apunta a elementos ancla solo afecte a aquellos que contienen un hipervínculo */
 a[href] {
   /* Directamente después de esta declaración, apuntar al estado visitado para el enlace */
