@@ -1,10 +1,12 @@
+/* Añadir una regla de box-sizing de forma universal justo antes de los estilos para html */
+
+/* Importar el contenido de normalize.css aquí */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
 /* Añadir una regla de box-sizing de forma universal */
 * {
   box-sizing: border-box;
 }
-
-/* Importar el contenido de normalize.css aquí */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 /* Estilos para el elemento html y otros estilos personalizados debajo si es necesario */
 html {
