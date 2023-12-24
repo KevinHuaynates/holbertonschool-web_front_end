@@ -6,7 +6,11 @@
 /* Importar el contenido de normalize.css aquí */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
-/* Agregar tus estilos personalizados debajo si es necesario */
+/* Estilos para el elemento html y otros estilos personalizados debajo si es necesario */
+html {
+  /* Estilos para el elemento html aquí */
+}
+
 /* Asegurar que la declaración que apunta a elementos ancla solo afecte a aquellos que contienen un hipervínculo */
 a[href] {
   /* Directamente después de esta declaración, apuntar al estado visitado para el enlace */
