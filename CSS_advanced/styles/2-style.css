@@ -1,0 +1,29 @@
+/* 2-style.css */
+
+/* Establece el color del texto del body */
+body {
+  color: #161616;
+}
+
+/* Establece el color del texto para todos los elementos de anclaje (enlaces) */
+a {
+  color: #161616;
+}
+
+/* Oculta visualmente los elementos con la clase visually-hidden */
+.visually-hidden {
+  display: none;
+}
+
+/* Establece el color del texto para los elementos con la clase card-category */
+.card-category {
+  color: #D73953;
+}
+
+/* Establece el color del texto para los elementos con la clase section-tagline */
+.section-tagline {
+  color: #D73953;
+}
+
+/* Otras reglas de estilo que puedas necesitar */
+
