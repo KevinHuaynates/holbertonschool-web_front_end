@@ -1,0 +1,30 @@
+/* 3-style.css */
+
+/* Define variables */
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+}
+
+/* Revisa las declaraciones section-tagline y card-category y establece su color utilizando la variable --color-primary */
+.section-tagline {
+  color: var(--color-primary);
+}
+
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Revisa las declaraciones body y a y establece su color utilizando la variable --text-color */
+body {
+  color: var(--text-color);
+}
+
+a {
+  color: var(--text-color);
+}
+
