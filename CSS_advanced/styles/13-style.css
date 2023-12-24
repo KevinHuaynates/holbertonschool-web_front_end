@@ -1,4 +1,4 @@
-/* Estilizar los elementos de anclaje que contienen un hipervínculo */
+/* Crear nuevas propiedades personalizadas para el título de la sección */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -147,23 +147,22 @@ a {
   color: var(--section-title-color);
 }
 
-/* Estilizar los elementos de anclaje que contienen un hipervínculo */
+/* Aplicar estilos solo a los elementos de anclaje que contienen un hipervínculo */
 a[href] {
   /* Estilos para los enlaces normales */
 }
 
-/* Estilizar el estado visited del enlace */
+/* Aplicar estilos al estado visitado del enlace */
 a[href]:visited {
-  font-style: italic;
+  font-style: italic; /* Poner el texto en cursiva */
 }
 
-/* Estilizar el estado hover del enlace */
+/* Aplicar estilos al estado hover del enlace */
 a[href]:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Subrayar el texto al pasar el ratón */
 }
 
-/* Estilizar el estado activo del enlace */
+/* Aplicar estilos al estado activo del enlace */
 a[href]:active {
-  background-color: var(--color-light-grey);
+  background-color: var(--color-light-grey); /* Establecer el color de fondo con la variable color-light-grey */
 }
-
