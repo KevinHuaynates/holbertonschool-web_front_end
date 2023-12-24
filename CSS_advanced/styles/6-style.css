@@ -1,3 +1,5 @@
+/* Task 6: Variables para el grosor de la fuente */
+
 /* Define propiedades personalizadas para el grosor de la fuente */
 :root {
   --font-weight-regular: 400; /* Grosor regular de la fuente */
