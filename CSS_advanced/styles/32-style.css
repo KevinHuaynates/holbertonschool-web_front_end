@@ -27,7 +27,7 @@
 }
 
 /* Transitions on card works */
-.card-work .card-image,
+.card-work:hover .card-image,
 .card-work .card-inner {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
