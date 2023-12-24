@@ -1,18 +1,16 @@
-/* Define las variables de fuente directamente */
+/* 4-style.css */
+
+/* Extiende las variables de fuente de 3-style.css */
 :root {
   --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Establece el tipo de fuente base para el cuerpo del documento */
 body {
   font-family: var(--font-family-base);
 }
 
-/* Establece el tipo de fuente para todos los niveles de encabezado */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
 }
-
-/* Otras reglas de estilo que puedas necesitar */
 
