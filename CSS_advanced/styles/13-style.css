@@ -1,4 +1,4 @@
-/* Seleccionar elementos de anclaje con hipervínculos */
+/* Crear nuevas propiedades personalizadas para el título de la sección */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -147,23 +147,23 @@ a {
   color: var(--section-title-color);
 }
 
-/* Seleccionar elementos de anclaje con hipervínculos */
+
 a[href]:not([href=""]) {
-  /* Seleccionar el estado visitado del enlace */
+  /* Estado visitado del enlace */
   &:visited {
-    /* Poner el texto en cursiva */
+    /* Texto en cursiva */
     font-style: italic;
   }
 
-  /* Seleccionar el estado de desplazamiento del enlace */
+  /* Estado de desplazamiento del enlace */
   &:hover {
-    /* Decorar los enlaces con un subrayado al pasar el mouse */
+    /* Subrayar los enlaces al pasar el mouse */
     text-decoration: underline;
   }
 
-  /* Seleccionar el estado activo del enlace */
+  /* Estado activo del enlace */
   &:active {
-    /* Establecer el color de fondo con la variable color-light-grey */
+    /* Color de fondo con la variable color-light-grey */
     background-color: var(--color-light-grey);
   }
 }
