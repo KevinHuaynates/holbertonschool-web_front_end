@@ -1,0 +1,10 @@
+/* 1-style.css */
+
+/* Configuración para un desplazamiento en todo el documento HTML */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Otras reglas de estilo que puedas necesitar */
+
+/* Transiciones adicionales según sea necesario */
