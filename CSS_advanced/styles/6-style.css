@@ -1,0 +1,16 @@
+/* Define propiedades personalizadas para el grosor de la fuente */
+:root {
+  --font-weight-regular: 400; /* Grosor regular de la fuente */
+  --font-weight-bold: 700; /* Grosor en negrita de la fuente */
+}
+
+/* Establece el grosor regular de la fuente para el cuerpo del documento */
+body {
+  font-weight: var(--font-weight-regular);
+}
+
+/* Establece el grosor en negrita de la fuente para los elementos de encabezado */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+}
+
