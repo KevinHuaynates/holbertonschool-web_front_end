@@ -366,3 +366,57 @@ template {
   --nav-item-link-hover: #d73953; /* color-primary */
 }
 
+/* Exercise 17 Styles */
+
+section {
+  padding: var(--section-padding);
+}
+
+.section-header {
+  padding: var(--section-header-padding);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+.footer {
+  padding: var(--footer-padding);
+}
+
+/* Exercise 18 Styles */
+
+.navbar-menu {
+  float: right;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
+
+.nav-link {
+  display: block;
+  padding: var(--section-padding) 0;
+}
+
+.nav-link:hover {
+  color: var(--nav-item-link-hover);
+}
+
