@@ -1,0 +1,30 @@
+/* Añadir una regla de box-sizing de forma universal */
+* {
+  box-sizing: border-box;
+}
+
+/* Importar el contenido de normalize.css aquí */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+/* Agregar tus estilos personalizados debajo si es necesario */
+/* Asegurar que la declaración que apunta a elementos ancla solo afecte a aquellos que contienen un hipervínculo */
+a[href] {
+  /* Directamente después de esta declaración, apuntar al estado visitado para el enlace */
+  color: var(--text-color);
+  text-decoration: none;
+  /* Poner el texto en cursiva */
+  font-style: italic;
+}
+
+/* Directamente después del estado visitado, apuntar al estado de hover para el enlace */
+a:hover {
+  /* Decorar los enlaces con un subrayado al pasar el mouse */
+  text-decoration: underline;
+}
+
+/* Directamente después del estado de hover, apuntar al estado activo para el enlace */
+a:active {
+  /* Establecer el color del fondo con la variable color-light-grey */
+  background-color: var(--color-light-grey);
+}
+
