@@ -1,4 +1,4 @@
-/* Asegurar que la declaración que apunta a elementos ancla solo afecte a aquellos que contienen un hipervínculo */
+/* Seleccionar elementos de anclaje con hipervínculos */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -147,24 +147,23 @@ a {
   color: var(--section-title-color);
 }
 
-/* Ensure that the declaration targeting anchor elements only targets those containing a hyperlink */
-a[href] {
-  /* Directly after this declaration, target the visited state for the link */
-  color: var(--text-color);
-  text-decoration: none;
-  /* Italicize the text */
-  font-style: italic;
-}
+/* Seleccionar elementos de anclaje con hipervínculos */
+a[href]:not([href=""]) {
+  /* Seleccionar el estado visitado del enlace */
+  &:visited {
+    /* Poner el texto en cursiva */
+    font-style: italic;
+  }
 
-/* Directly after the visited state, target the hover state for the link */
-a:hover {
-  /* Decorate the links with an underline when hovering */
-  text-decoration: underline;
-}
+  /* Seleccionar el estado de desplazamiento del enlace */
+  &:hover {
+    /* Decorar los enlaces con un subrayado al pasar el mouse */
+    text-decoration: underline;
+  }
 
-/* Directly after the hover state, target the active state for the link */
-a:active {
-  /* Set the color of the background with the variable color-light-grey */
-  background-color: var(--color-light-grey);
+  /* Seleccionar el estado activo del enlace */
+  &:active {
+    /* Establecer el color de fondo con la variable color-light-grey */
+    background-color: var(--color-light-grey);
+  }
 }
-
