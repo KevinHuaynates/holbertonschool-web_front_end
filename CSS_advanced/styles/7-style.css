@@ -1,0 +1,26 @@
+/* Tarea 7: Integrar Google Fonts en el archivo CSS */
+
+/* Modifica las propiedades font-family-base y font-family-title para incluir las fuentes de Google */
+:root {
+  --font-family-base: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+  --font-family-title: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Resto del código (se mantiene igual) */
+
+/* Define propiedades personalizadas para el grosor de la fuente */
+:root {
+  --font-weight-regular: 400; /* Grosor regular de la fuente */
+  --font-weight-bold: 700; /* Grosor en negrita de la fuente */
+}
+
+/* Establece el grosor regular de la fuente para el cuerpo del documento */
+body {
+  font-weight: var(--font-weight-regular);
+}
+
+/* Establece el grosor en negrita de la fuente para los elementos de encabezado */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+}
+
