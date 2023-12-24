@@ -1,5 +1,7 @@
 /* 5-style.css */
 
+/* W3C compliant CSS */
+
 /* Define las variables de tamaño de fuente directamente */
 :root {
   --font-size-small: 1.2rem;
