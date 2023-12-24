@@ -1,0 +1,8 @@
+/* Exercise 20 Styles ========================================================================== */
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
