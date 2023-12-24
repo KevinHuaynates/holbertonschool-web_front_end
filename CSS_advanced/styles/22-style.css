@@ -1,0 +1,8 @@
+/* Exercise 22 Styles ========================================================================== */
+
+[data-section-theme="dark"] {
+  --text-color: color-white;
+  --section-title-color: color-white;
+  background: var(--color-black);
+}
+
