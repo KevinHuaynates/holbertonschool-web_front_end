@@ -83,10 +83,3 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-/* You can use these custom properties in your styling for different elements */
-/* Example: */
-p {
-  font-weight: var(--font-weight-regular);
-}
-
-
