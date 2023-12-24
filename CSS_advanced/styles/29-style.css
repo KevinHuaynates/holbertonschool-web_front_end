@@ -1,0 +1,24 @@
+/* Exercise 29 Styles ========================================================================== */
+
+/* Nav item link hover styles */
+.nav-link:hover {
+  color: var(--nav-item-link-hover);
+}
+
+/* Nav link before pseudo elements styles */
+.nav-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 20%;
+}
+
+/* Nav link before pseudo elements styles on hover */
+.nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
